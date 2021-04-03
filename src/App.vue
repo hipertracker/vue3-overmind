@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div>
+    <div class="flex justify-center">
+      <img alt="Vue logo" src="./assets/logo.png" />
+    </div>
+    <HelloWorld />
+  </div>
 </template>
 
 <script lang="ts">
