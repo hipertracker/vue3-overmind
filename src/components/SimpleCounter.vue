@@ -2,7 +2,7 @@
   <div class="pt-3">
     <DecBtn @click="actions.inc" />
     <span class="bg-gray-200 text-xl ml-3 mr-3">
-      {{ state.counter }}
+      Counter: {{ state.counter }}
     </span>
     <IncBtn @click="actions.dec" />
   </div>
